@@ -1,11 +1,7 @@
 def main():
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
+
     while True:
-        user_input = int(Enter a integer value)
+        user_input = input("Enter a integer value:")
         
         try:
             number = int(user_input)
