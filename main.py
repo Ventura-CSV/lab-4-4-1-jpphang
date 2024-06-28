@@ -4,10 +4,12 @@ def main():
     Code Your Program here
     ########################################
     """
-    while true:
+    while True:
+        user_input = int(Enter a integer value)
+        
         try:
-            user_input = number
-            if user_input > 0 and user_input < 100:
+            number = int(user_input)
+            if number > 0 and number < 100:
                 break
         except ValueError:
             pass
