@@ -4,7 +4,9 @@ def main():
     Code Your Program here
     ########################################
     """
-
+    while true:
+        try:
+            number = int(input"enter integer value")
     print(number)
 
     ########################################
