@@ -6,7 +6,10 @@ def main():
     """
     while true:
         try:
-            number = int(input"enter integer value")
+            user_input = int(input"enter integer value")
+            if user_input > 0 and user_input < 100:
+                number = user_input
+                
     print(number)
 
     ########################################
